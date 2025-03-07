@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    " rel="stylesheet">     -->
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <h1 >Student Form</h1>
+    <div class = "mainbox">
+        <form>
+            <table class = "table1" border="2">
+                <tr>
+                    <td >Name</td>
+                    <td><input id = "name" type="text" placeholder="Enter Name"  autocomplete="rajkaviya" /></td>
+                    
+                    <br>
+                </tr>
+
+
+                <tr>
+                    <td>Age</td>
+                    <td><input id = "age" type="number" placeholder="Enter age" ></td>
+
+
+                </tr>
+
+                <tr>
+                    <td >Gender</td>
+                    <td><input id ="gender-m" type="radio" value="male" name="gender" >Male
+
+                        <input id ="gender-f" type="radio" value="female" name="gender" >Female</td>
+                        <br>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Course</td>
+                    <td><select id="course">
+                            <option>Select</option>
+                            <option>HTML</option>
+                            <option>Python</option>
+                            <option>Java</option>
+                            <option>JavaScript</option>
+                        </select>
+                        <br>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>e-mail</td>
+                    <td><input id = "mail" type="email" placeholder="Enter email" >
+                        <br>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td colspan="2">
+                    <button id = "btn">Save</button></td>
+    </div>
+    </tr>
+
+
+
+    </table>
+    </form>
+    </div>
+    <br>
+<div class = "con2 ">
+   
+    <table class = "table2" border="2">
+        <thead>
+    <tr class = table2__head >
+        <td id = "name1">Name</td>
+        <td id = "age1">Age</td>
+        <td id = "course1">Course</td>
+        <td id = "gender1">Gender</td>
+        <td id = "mail1"> E-mail</td>
+        <td id = "del">Action</td>
+    </tr>
+</thead>
+    <tbody>
+
+    </tbody>
+    </table>
+    <td button = "del" onclick = "delt(event)"></td>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+

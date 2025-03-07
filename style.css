@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+}
+ body {
+text-align: center;
+ }
+
+
+.table1{
+ width: 250PX;
+ margin:auto
+ 
+    
+    /* outline: none; */
+}
+.table1 input, select{
+    border: none;
+}
+.table1 input,:focus{
+    outline: none;
+}
+.table1 select{
+    width: 100%;
+}
+.con2{
+    width: 100%;
+}
+.table2{
+   margin: auto;
+    width: 40%;
+   
+}
+.hidden{
+     display: none;
+}
+
+
+button {
+    column-span: 2;
+    width: 100%;
+    height: auto;
+    background-color: rgb(136, 190, 136);
+}
